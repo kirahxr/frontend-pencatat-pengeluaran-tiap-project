@@ -11,9 +11,11 @@ cd frontend-pencatat-pengeluaran-tiap-project/
 npm install
 ```
 3. run
-            ```
-- Android   react-native run-android
-            ```
-            ```
-- iOS       react-native run-ios
-            ```
+- Android   
+```
+react-native run-android
+```
+- iOS
+```
+react-native run-ios
+```
