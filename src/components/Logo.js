@@ -12,8 +12,8 @@ export default class Logo extends Component<{}> {
     render() {
         return (
             <View style={styles.container}>
-                <Image style={{ width: 40, height: 70 }} source={require('../img/kira.png')}/>
-                <Text style={styles.logoText}>Welcome To BlaBlaBla</Text>
+                {/* <Image style={{ width: 40, height: 70 }} source={require('../img/kira.png')}/> */}
+                <Text style={styles.logoText}>Welcome To NamaApp</Text>
             </View>
         );
     }
@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
     },
     logoText : {
         marginVertical: 15,
-        fontSize:18,
-        color:'rgba(255, 255, 255, 0.7)'
+        fontSize:25,
+        fontFamily: 'sans-serif-condensed',
+        color:'white'
     }
 });
